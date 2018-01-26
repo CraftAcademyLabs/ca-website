@@ -1,3 +1,67 @@
+- first_name: Ólöf
+  last_name: Vignisdóttir
+  image: Olof-400.png
+  summary: Från Telekom-anställd till Frontend Developer
+  testimonial: När jag hittade min inre ro och fortsatte koda så kom resultaten
+  cohort_month: Augusti
+  cohort_year: 2017
+  categories:
+    - career changer
+    - female
+  case_study:
+    - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
+      answer: Jag är en 28 år gammal tjej från Island som bestämde sig för att flytta till Göteborg, Sverige, för att jobba inom utvecklingsbranschen. Jag började på bootcampet utan någon tidigare programmeringskunskap. Innan dess studerade jag historia och museumkunskap, jobbade lite på museums och arbetade för ett telekomföretag.
+    - question: Under hösten 2017 deltog du i en bootcamp som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?
+      answer: När jag arbetade på telekomföretaget kände jag att jag måste arbeta inom utvecklingsbranschen eftersom det är framtiden.
+    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
+      answer: Mitt viktigaste resultat var att jag fortsatte jobba på - du kan göra det, och resultaten kommer till slut. Det var riktigt svårt i början, och jag jämförde alltid mig själv med de andra studenterna och tyckte att jag var sämre. Men när jag hittade min inre ro och fortsatte koda så kom resultaten.
+    - question: Vad skulle du säga var det mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?
+      answer: Det är intensivt. Du måste hålla takten och vara fokuserad hela tiden, ibland känner du dig korkad men då är det bra att prata med dina kurskamrater. Troligtvis känner de samma sak, och du är inte ensam. Ni gör det här tillsammans som en grupp.
+    - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
+      answer: Mitt råd är att ta det lugnt och fortsätta koda!
+
+- first_name: Faraz
+  last_name: Naeem
+  image: Faraz-400.png
+  summary: Från ekonom till Junior Developer
+  testimonial: Gör det, och gå in för det helhjärtat.
+  cohort_month: Juni
+  cohort_year: 2017
+  categories:
+    - career changer
+  case_study:
+    - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
+      answer: Jag heter Faraz Naeem och har tidigare haft ägt och drivit Kista Redovisningsbyrå. Det gick väldigt bra och vi växte snabbt till att bli en av de större redovisningsbyråerna i Kista vilket jag är väldigt stolt över.
+    - question: Under sommaren 2017 deltog du i en bootcamp som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?
+      answer: Något inom mig sa att jag skulle passa bättre i en mer skapande roll snarare än bokföring som gick ut på att arbeta med historik och presentera det till olika intressenter. Beslutet tog jag när jag själv byggde upp företagets hemsida i Wordpress. Det var enormt kul att skapa något och redan dagen därpå började jag titta efter hur jag skulle kunna komma in i tech-branschen och börja skapa.
+    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
+      answer: Som alla andra så hade jag en annan bild av att arbeta med teknik efter att ha tittat på många filmer under årens lopp. Jag var van att arbeta på ett väldigt systematiskt sätt med fastlagda rutiner. Craft Academy visade mig att även inom webbutveckling så ska man arbeta systematiskt. Den viktigaste effekten var nog att jag 12 veckor innan inte ett smack om kodning till att jag idag kan skapa både webbappar, mobilappar och system. Ord som API:er, TDD, HTTP requests är inte längre ren grekiska utan klara koncept som jag kan arbeta med.
+    - question: Vad skulle du säga var det mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?
+      answer: Intensiteten utan tvekan.
+    - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
+      answer: Gör det, och gå in för det helhjärtat.
+
+- first_name: Osegbemoh
+  last_name: Dania
+  image: OJ-400.png
+  summary: Från Network Infrastructure Manager till Junior Developer
+  testimonial: Viljan att kunna skapa min egna programvara skapade intresset för att programmera.
+  cohort_month: April
+  cohort_year: 2017
+  categories:
+    - career changer
+  case_study:
+    - question: Kan du berätta lite om vem du är och vad du jobbat med tidigare?
+      answer: Jag heter Osegbemoh Dania, och är från Lagos, Nigeria. Jag jobbade som Network Infrastructure Manager i 9 år för en internetleverantör och en apotekskedja i Nigeria innan jag började min resa till Craft Academy.
+    - question: Under våren 2017 deltog du i en bootcamp som Craft Academy anordnade, vad fick dig att bestämma dig för att lära dig att koda?
+      answer: Jag tröttnade på mitt jobb och behövde någonting mer utmanande, så jag bestämde mig för att testa skapa webbapplikationer genom att göra min egna e-handelsbutik. Jag hade för begränsade resurser för att kunna outsourca webbapplikationen till ett företag eller frilansare, så jag skapade hemsidan själv genom att använda ett framework som heter Magento. Jag skapade min e-handelsbutik men kunde inte lägga till nya funktioner. Det skapade problem och till slut behövde jag anställa en frilansare. Viljan att kunna skapa min egna programvara skapade intresset för att programmera. Jag utforskade flera olika plattformar som EDX, Coursera & Udemy men kunde inte lära mig snabbt nog eftersom jag hade ett väldigt upptaget jobbliv, och jag blev distraherad av att försöka lära mig flera språk samtidigt. Jag sa upp mig som Network Manager för att kunna lära mig programmera på ett strukturerat sätt i ett bootcamp.
+    - question: Vad skulle du säga var det viktigaste effekten av att du deltog på Craft Academy?
+      answer: Självförtroendet jag fick när jag utvecklar webbapplikationer med bra kutymer som beteende- och testdriven kod, och hur lätt det är att lära sig nya programmeringsspråk och ramverk.
+    - question: Vad skulle du säga var det mest utmanande med den utbildningsmodell som Craft Academy jobbar efter?
+      answer: Att veckovis arbeta med nya projekt som har väldigt kort deadline.
+    - question: Vilket råd skulle du ge någon som funderar på att vara med på en Bootcamp?
+      answer: Tveka inte, det är ett bra första steg för att lära sig de viktigaste grunderna inom programmering. Ett bootcamp kommer att hjälpa dig fokusera, sortera mellan alla ramverk, och ge dig bra praktisk erfarenhet. Du kommer också att få vägledning från proffs som hjälper dig gå igenom din kod och guida din tankeprocess.
+
 - first_name: Lucia
   last_name: De Mojà
   image: Lucia-400.png
