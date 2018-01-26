@@ -1,6 +1,6 @@
 %section.full-slider
   %h1.centered-row.space
-    Sagt om oss
+    Said about us
   .slider
     - data.reviews.each do | review |
       .slide.reviews
@@ -8,11 +8,11 @@
           .profile-row
             %h2.centered-row= review.title
             %h5.centered-row
-              #{review.stars}/5 stjärnor
+              #{review.stars}/5 stars
             %blockquote.centered-row= review.quote
             %h4.centered-row.subheader
               #{review.author} - #{review.date}
             .button-row.shift-to-bottom.centered-row
               %p
-                = link_to 'Läs recensionen', review.link, class: 'button button--horizontal', target: :_blank
+                = link_to 'Read the review', review.link, class: 'button button--horizontal', target: :_blank
               %br
