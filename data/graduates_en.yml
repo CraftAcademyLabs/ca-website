@@ -1,3 +1,67 @@
+- first_name: Ólöf
+  last_name: Vignisdóttir
+  image: Olof-400.png
+  summary: From a telecom company employee to a Frontend Developer
+  testimonial: When I found my inner peace and just kept on coding the results came
+  cohort_month: August
+  cohort_year: 2017
+  categories:
+    - career changer
+    - female
+  case_study:
+    - question: Can you talk a little bit about who you are and what your work has been until now?
+      answer: I’m a 28 year old girl from Iceland that decided to move to Gothenburg Sweden to pursue a career in development. I signed up for the coding bootcamp at Craft Academy with no prior experience with coding. Before the bootcamp I studied history and museum studies, worked a bit in museums and for a telecom company.
+    - question: During the autumn of 2017, you participated in the Craft Academy bootcamp. What made you decide to learn to code?
+      answer: When working at the telecom company I felt a need to pursue a career in coding because that’s the future.
+    - question: What would you say was the most important result of your time with Craft Academy?
+      answer: My most important result was to push on through - you can do it, and the results come in the end. It was really hard in the beginning, and I was always comparing myself to other students and felt bad about myself. But when I found my inner peace and just kept on coding the results came.
+    - question: What would you say was the most challenging part of the training model at Craft Academy?
+      answer: It’s intense. You have to keep up and stay focused the whole time, sometimes you feel stupid but then it’s good to talk to your fellow students. Most likely they feel the same way, and you’re not alone. You’re in this together as a group.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: My advice would be keep calm and keep on coding!
+
+- first_name: Faraz
+  last_name: Naeem
+  image: Faraz-400.png
+  summary: From Accountant to Junior Developer
+  testimonial: Do it, and do it wholeheartedly.
+  cohort_month: June
+  cohort_year: 2017
+  categories:
+    - career changer
+  case_study:
+    - question: Can you talk a little bit about who you are and what your work has been until now?
+      answer: My name is Faraz Naeem and I had previously owned and operated Kista Redovisningsbyrå which is an accounting agency. The company was a success and we quickly grew into becoming one of the major accounting firms in Kista, which I am very proud of.
+    - question: During the summer of 2017, you participated in the Craft Academy bootcamp. What made you decide to learn to code?
+      answer: Something within me said that I would better fit in a more creative role rather than accounting. When working with accounting you are basically working with past events and presenting it to different stakeholders. I took the decision to change careers when I was building the company's website in Wordpress. It was a lot of fun to create something.
+    - question: What would you say was the most important result of your time with Craft Academy?
+      answer: Like everyone else, I had another picture of ​​how it was to work with technology thanks to watching so many movies over the years. The camp really opened my eyes. The most important effect was probably that 12 weeks before I did not have a clue about coding. Today I can create both web apps, mobile apps and systems. Words like APIs, TDD, HTTP requests are no longer greek to me but clear concepts.
+    - question: What would you say was the most challenging part of the training model at Craft Academy?
+      answer: The intensity of the bootcamp.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: Do it, and do it wholeheartedly.
+
+- first_name: Osegbemoh
+  last_name: Dania
+  image: OJ-400.png
+  summary: From Network Infrastructure Manager to Junior Developer
+  testimonial: The desire to develop my own software product sparked my interest in coding
+  cohort_month: April
+  cohort_year: 2017
+  categories:
+    - career changer
+  case_study:
+    - question: Can you talk a little bit about who you are and what your work has been until now?
+      answer: I am Osegbemoh Dania, from Lagos, Nigeria. I worked as a Network Infrastructure Manager for 9 years with an internet service provider & a chain of pharmaceutical retail stores across Nigeria before my journey to Craft Academy.
+    - question: During the spring of 2017, you participated in the Craft Academy bootcamp. What made you decide to learn to code?
+      answer: I got tired of my networking job and needed a more challenging career path so I decided to try my hands on web app development by launching my own fashion e-commerce store.  I had limited resources outsourcing the web app to a company or freelancer so I developed the website myself using a ready made framework called Magento. I got my e-commerce platform up & running but was unable to develop new features into the platform. This became a struggle for me and had to finally outsource to a freelancer. The desire to develop my own software product sparked my interest in coding. I explored several platforms like EDX, Coursera & Udemy but wasn’t learning fast due to my busy schedule at work and also got distracted trying to learn several programming frameworks at once. I had to resign from my job as a Network Manager to pursue a structured training program in a coding bootcamp.
+    - question: What would you say was the most important result of your time with Craft Academy?
+      answer: The confidence in developing web applications using some of the best practices like test driven & behavioral driven development and the ease of learning new programming languages & development framework.
+    - question: What would you say was the most challenging part of the training model at Craft Academy?
+      answer: Working on new projects weekly with very tight deadlines.
+    - question: What advice would you give someone who is thinking about enrolling in the bootcamp?
+      answer: Don’t hesitate, it’s a great step to learning the most important fundamentals in coding. A bootcamp will help keep you focused, prevent the noise of too many software development frameworks out there and would also provide very good hands-on experience.You also get guidance from professionals who help review your coding style and also guide your thought process when writing code.
+
 - first_name: Lucia
   last_name: De Mojà
   image: Lucia-400.png
