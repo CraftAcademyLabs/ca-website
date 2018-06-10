@@ -53,6 +53,20 @@ function getCookie(cname) {
     return "";
 }
 
+
+function parallax(event) {
+    let sliders = document.querySelectorAll('[class^="hero-splash"]');
+    Array.from(sliders).forEach( slider => {
+        slider.dataset.speed = 3;
+        let yPos = window.pageYOffset / slider.dataset.speed;
+        yPos = -yPos;
+        let coords = '0% '+ (yPos / 2) + 'px';
+        
+        slider.style.backgroundPosition = coords;
+    })
+
+}
+
 $(document).ready(function () {
 
     // Uses jQuery Modal: http://jquerymodal.com/
@@ -109,4 +123,9 @@ $(document).ready(function () {
 
     $('.definition-links').fixedScroll();
 
+});
+
+
+window.addEventListener("scroll", function(){
+	parallax();	
 });
