@@ -70,9 +70,8 @@ function parallax(event) {
 $(document).ready(function () {
 
     // Uses jQuery Modal: http://jquerymodal.com/
-
-    if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname == '/english/') {
-
+    if (getCookie('newsFlashEN') != 'viewed' && window.location.pathname.includes('english')) {
+        debugger;
         setTimeout(function () {
             $('#news-modal').modal({
                 fadeDuration: 100
