@@ -1,7 +1,7 @@
 - title: Work The Web
   slug: wtw
   category: workshops
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: From 1 000 SEK - €100 (Contact us for details)
   active: true
   description: Do you want to understand how applications for the web are built, but don’t know where to start? This workshop is for everyone that is curious about programming for the internet and wants to gain new skills in web development and basic data science. We'll be covering the basics of HTML, CSS, and JavaScript, and by the end of the day, you'll have an overview of the big picture of how internet applications are structured and how you can Work The Web - not only consume it.
@@ -11,7 +11,7 @@
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['9-10 February 2021 - Stockholm', '24-25 Mars 2021 - Stockholm', '5-6 May 2021 - Stockholm', '8-9 June 2021 - Stockholm']
+  dates: ['9-10 February 2021 - Remote', '24-25 Mars 2021 - Remote', '5-6 May 2021 - Remote', '8-9 June 2021 - Remote']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
@@ -21,7 +21,7 @@
 - title: Introduction to VUE3
   slug: intro_vue3
   category: vue
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 13 000 SEK - €1.300
   active: true
   description: Vue brings together the best features of the JavaScript framework landscape. This introductory course is the first step through the Vue framework, and will help you to explore the technology and build a solid foundation of skills. Throughout this course, you’ll learn the fundamentals of Vue version 3, and build an app to put these concepts in practice.
@@ -31,7 +31,7 @@
 - title: Building Web Applications using VUE 3
   slug: advanced_vue3
   category: vue
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 24 500 SEK - €2.450
   active: true
   description: Move past the basics of Vue, and start building real-life applications. In this practically oriented course, you’ll get an opportunity to put your Vue skills to use, as well as get your hands on some advanced techniques that will help you to develop fully featured applications for the browser. Learn how to consume APIs (REST), create reusable components, use custom validation for forms, use Vuex store, and much more. We’ll also cover how you can make use of various Platform as a Service (PAAS) to deploy your applications
@@ -41,7 +41,7 @@
 - title: Version Control with Git
   slug: intro_git
   category: productivity
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 24 500 SEK - €2.450
   active: true
   description: For all professional developers, managing different versions of project files, keeping track of work, and collaborating over code, are fundamental skills in order to maintain good quality and build and deliver complex solutions. Using version control systems in general, and Git in particular makes working on complex projects manageable. This course covers the essentials of using Git as a version control system and cloud based services (GitHub) to easily share code and collaborate in projects.
@@ -51,7 +51,7 @@
 - title: API development with NodeJS
   slug: node_api
   category: node
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 33 500 SEK - €3.300
   active: true
   description: Node.js is an open-source, cross-platform, JavaScript runtime environment that executes JavaScript code outside a web browser. In this course you’ll learn how to build modern, fast and scalable RESTful API with NodeJS. We’ll start from the top explaining the HTTP protocol, the REST architecture, database connectivity, user authentication, etc, and move on to build, test and deploy a small API in a series of code-along exercises. This is a fast-paced, accelerated training that requires your active participation and a lot of grit.
@@ -61,7 +61,7 @@
 - title: ReactJs - Getting Started (2021 edition)
   slug: react_1
   category: react
-  dates: ['27-28 January 2021 - Stockholm',  '10-11 Mars 2021 - Stockholm', '21-22 April 2021 - Stockholm', '2-3 June 2021 - Stockholm']
+  dates: ['27-28 January 2021 - Remote',  '10-11 Mars 2021 - Remote', '21-22 April 2021 - Remote', '2-3 June 2021 - Remote']
   price: 24 500 SEK - €2.450
   active: true
   description:
@@ -72,7 +72,7 @@
 - title: ReactJs - Advanced (2021 edition)
   slug: react_2
   category: react
-  dates: ['16-17 February 2021 - Stockholm', '30-31 Mars 2021 - Stockholm', '11-12 May 2021 - Stockholm', '15-16 June 2021 - Stockholm' ]
+  dates: ['16-17 February 2021 - Remote', '30-31 Mars 2021 - Remote', '11-12 May 2021 - Remote', '15-16 June 2021 - Remote' ]
   price: 24 500 SEK - €2.450
   active: true
   description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
@@ -82,7 +82,7 @@
 - title: TDD with ReactJs (2021 edition)
   slug: react_3
   category: react
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 33 500 SEK - €3.300
   active: true
   description: This is the course for developers who want to immerse themselves in how to develop React applications in a test-driven way. During the training, we also go through state management, user authentication and retrieve and write data to external APIs.
@@ -92,7 +92,7 @@
 - title:  From idea to customer collaboration
   slug: agile_1
   category: agile
-  dates: ["On demand/custom dates - Stockholm, Gothenburg or customer's location"]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 33 500 SEK - €3.300
   active: true
   description: How do we build stuff that people love? Because that is the real goal (not agile or Scrum). This course is about capturing your idea and involving users & stakeholders. We avoid trying to guess what the user wants, instead we go for what they really wants. You will work very hands-on with your own idea, and throughout the journey you will also learn Scrum and other commonly used tools.
