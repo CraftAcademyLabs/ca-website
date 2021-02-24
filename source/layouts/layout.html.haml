@@ -7,8 +7,19 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-
-    gtag('config', 'AW-950143782');
+      gtag('config', 'AW-950143782')
+      function gtag_report_conversion(url) {
+        var callback = function () {
+          if (typeof(url) != 'undefined') {
+            window.location = url;
+          }
+        };
+        gtag('event', 'conversion', {
+            'send_to': 'AW-950143782/RNGSCLDx8vcBEKaWiMUD',
+            'event_callback': callback
+        });
+        return false;
+      }
     / End Global site tag
     %link{href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css', rel: 'stylesheet'}/
     <!--[if gt IE 8]><!-->
