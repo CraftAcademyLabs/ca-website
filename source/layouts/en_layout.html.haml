@@ -1,6 +1,15 @@
 !!!
 %html
   %head
+    / Global site tag (gtag.js) - Google Ads: 950143782
+    %script{:async => "", :src => "https://www.googletagmanager.com/gtag/js?id=AW-950143782"}
+    :javascript
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+    gtag('config', 'AW-950143782');
+    / End Global site tag
     %link{href: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css', rel: 'stylesheet'}/
     <!--[if gt IE 8]><!-->
     = stylesheet_link_tag 'all'
