@@ -6,17 +6,27 @@
   active: true
   description: Do you want to understand how applications for the web are built, but don’t know where to start? This workshop is for everyone that is curious about programming for the internet and wants to gain new skills in web development and basic data science. We'll be covering the basics of HTML, CSS, and JavaScript, and by the end of the day, you'll have an overview of the big picture of how internet applications are structured and how you can Work The Web - not only consume it.
   info: up to 1 day on-site.(2 to 7 hours depending on audience, please contact us for deetails) This course can be delivered as a mix of theory sessions and code-along practical examples or strictly as a demo session.
-  instructors: Thomas Ochman, Emma-Maria Thalén
+  instructors: Thomas Ochman
+
+- title: "Introduction to Automated tesing in JavaScript"
+  slug: test_intro
+  category: testing
+  dates: ['19 - 21 May 2021 - Remote']
+  price: 2 500 SEK - €245
+  active: true
+  description: Test automation is the practice of running tests automatically, managing test data, and utilizing results to improve software quality. It’s primarily a quality assurance measure, but its activities involve the commitment of the entire software production team. This course is for anyone who wants to learn how to incorporate automated testing in their development flow. We will be covering a variety of tools, frameworks and libraries to cover a broad range of testing strategies.
+  info: 3 X 2 hour session spread out over 3 days. This course is delivered as a mix of theory sessions and follow-along practical code examples. Access to course resources and code will be granted on purchase confirmation.
+  instructors: Thomas Ochman
 
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['9-10 February 2021 - Remote', '24-25 Mars 2021 - Remote', '5-6 May 2021 - Remote', '8-9 June 2021 - Remote']
+  dates: ['8-9 June 2021 - Remote']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Thomas Ochman, Emma-Maria Thalén
+  instructors: Thomas Ochman
 
 - title: Introduction to VUE3
   slug: intro_vue3
@@ -26,7 +36,7 @@
   active: true
   description: Vue brings together the best features of the JavaScript framework landscape. This introductory course is the first step through the Vue framework, and will help you to explore the technology and build a solid foundation of skills. Throughout this course, you’ll learn the fundamentals of Vue version 3, and build an app to put these concepts in practice.
   info: 1 day (7 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Simon Wikstrand, Thomas Ochman
+  instructors: Thomas Ochman
 
 - title: Building Web Applications using VUE 3
   slug: advanced_vue3
@@ -36,7 +46,7 @@
   active: true
   description: Move past the basics of Vue, and start building real-life applications. In this practically oriented course, you’ll get an opportunity to put your Vue skills to use, as well as get your hands on some advanced techniques that will help you to develop fully featured applications for the browser. Learn how to consume APIs (REST), create reusable components, use custom validation for forms, use Vuex store, and much more. We’ll also cover how you can make use of various Platform as a Service (PAAS) to deploy your applications
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Simon Wikstrand, Thomas Ochman
+  instructors: Thomas Ochman
 
 - title: Version Control with Git
   slug: intro_git
@@ -46,7 +56,7 @@
   active: true
   description: For all professional developers, managing different versions of project files, keeping track of work, and collaborating over code, are fundamental skills in order to maintain good quality and build and deliver complex solutions. Using version control systems in general, and Git in particular makes working on complex projects manageable. This course covers the essentials of using Git as a version control system and cloud based services (GitHub) to easily share code and collaborate in projects.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Emma-Maria Thalén, Thomas Ochman.
+  instructors: Thomas Ochman.
 
 - title: API development with NodeJS
   slug: node_api
@@ -61,18 +71,18 @@
 - title: ReactJs - Getting Started (2021 edition)
   slug: react_1
   category: react
-  dates: ['27-28 January 2021 - Remote',  '10-11 Mars 2021 - Remote', '21-22 April 2021 - Remote', '2-3 June 2021 - Remote']
+  dates: ['2-3 June 2021 - Remote']
   price: 24 500 SEK - €2.450
   active: true
   description:
     Do you want to create web apps that are fast, scalable and easy to build? In this practical course, we go through the basics of ReactJS so that you can quickly get started and build your own web apps. The course provides a solid introduction to component-based frameworks and puts a great deal of focus on the practical steps for creating React apps. The content and exercises are updated to the latest version of ReactJS.
   info: 2 days (14 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Emma-Maria Thalén., Thomas Ochman
+  instructors: Thomas Ochman
 
 - title: ReactJs - Advanced (2021 edition)
   slug: react_2
   category: react
-  dates: ['16-17 February 2021 - Remote', '30-31 Mars 2021 - Remote', '11-12 May 2021 - Remote', '15-16 June 2021 - Remote' ]
+  dates: ['15-16 June 2021 - Remote' ]
   price: 24 500 SEK - €2.450
   active: true
   description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
@@ -102,7 +112,7 @@
 - title: Mobile App Development with React Native (2021 edition)
   slug: react_native
   category: react
-  dates: ['22-25 February 2021 - Remote', '6-9 April 2021 - Remote', '17-20 May 2021 - Remote' ]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 49 000 SEK / €4.900
   active: true
   description: This is the course for developers that wish to transition from web development to mobile app development with React Native. “Mobile App Development with React Native” introduces you to mobile application development using JavaScript. Through hands-on workshops and interactive code-along sessions, you'll gain experience with React Native and its paradigms, app architecture, and user interfaces. You will also learn how to ensure good quality code using end-to-end tests using Detox, a testing framework that executes code on an actual device/simulator and interacts with it just like a real user would.
