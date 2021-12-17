@@ -105,11 +105,17 @@ set :images_dir, 'images'
 
 sprockets.append_path File.join root, 'bower_components'
 
-set :apply_form_url, 'https://craftacademy.typeform.com/to/V4mFcd'
-set :apply_form_url_english, 'https://craftacademy.typeform.com/to/hkkxKQ'
-set :apply_sa_form_url, 'http://apply.thecraftacademy.co.za'
-set :hire_form_url, 'https://craftacademy.typeform.com/to/SQcaqh'
-set :class_site_url, 'http://class.craftacademy.se'
+# set :apply_form_url, 'https://craftacademy.typeform.com/to/V4mFcd'
+# set :apply_form_url_english, 'https://craftacademy.typeform.com/to/hkkxKQ'
+# set :apply_sa_form_url, 'http://apply.thecraftacademy.co.za'
+# set :hire_form_url, 'https://craftacademy.typeform.com/to/SQcaqh'
+
+set :apply_form_url, 'https://form.jotform.com/213501220114029'
+set :apply_form_url_english, 'https://form.jotform.com/213501220114029'
+set :apply_sa_form_url, 'https://form.jotform.com/213501220114029'
+set :hire_form_url, 'https://form.jotform.com/213501220114029'
+
+set :class_site_url, 'http://learn.craftacademy.co'
 
 # Ignore folders with unused templates
 ignore 'elements/*'
