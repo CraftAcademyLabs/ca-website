@@ -11,7 +11,7 @@
 - title: "Introduction to Automated tesing in JavaScript"
   slug: test_intro
   category: testing
-  dates: ['19 - 21 May 2021 - Remote']
+  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
   price: 2 500 SEK - €245
   active: true
   description: Test automation is the practice of running tests automatically, managing test data, and utilizing results to improve software quality. It’s primarily a quality assurance measure, but its activities involve the commitment of the entire software production team. This course is for anyone who wants to learn how to incorporate automated testing in their development flow. We will be covering a variety of tools, frameworks and libraries to cover a broad range of testing strategies.
@@ -21,7 +21,7 @@
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['8-9 June 2021 - Remote']
+  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
@@ -71,7 +71,7 @@
 - title: ReactJs - Getting Started (2021 edition)
   slug: react_1
   category: react
-  dates: ['2-3 June 2021 - Remote']
+  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
   price: 24 500 SEK - €2.450
   active: true
   description:
@@ -82,7 +82,7 @@
 - title: ReactJs - Advanced (2021 edition)
   slug: react_2
   category: react
-  dates: ['15-16 June 2021 - Remote' ]
+  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location' ]
   price: 24 500 SEK - €2.450
   active: true
   description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
