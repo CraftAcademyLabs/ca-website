@@ -11,7 +11,7 @@
 - title: "Introduction to Automated tesing in JavaScript"
   slug: test_intro
   category: testing
-  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 2 500 SEK - €245
   active: true
   description: Test automation is the practice of running tests automatically, managing test data, and utilizing results to improve software quality. It’s primarily a quality assurance measure, but its activities involve the commitment of the entire software production team. This course is for anyone who wants to learn how to incorporate automated testing in their development flow. We will be covering a variety of tools, frameworks and libraries to cover a broad range of testing strategies.
@@ -21,7 +21,7 @@
 - title: "Test Automation using Cypress"
   slug: cypress_1
   category: testing
-  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location"]
   price: 24 500 SEK - €2.450
   active: true
   description: Cypress is a cutting-edge framework that makes writing automated tests for front-end applications mostly frictionless. This course is a rapid introduction to Cypress.io, covering basic and intermediate techniques for writing end-to-end test cases. Throughout this course, you’ll learn how to write test cases that simulate different interactions between your end-users and your application. This course is for anyone who wants to learn how to work with Cypress and properly use this new tool to incorporate automated testing in their development flow.
@@ -68,7 +68,7 @@
   info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
   instructors: Thomas Ochman
 
-- title: ReactJs - Getting Started (2021 edition)
+- title: ReactJS - Getting Started (2021 edition)
   slug: react_1
   category: react
   dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location']
@@ -82,7 +82,7 @@
 - title: ReactJs - Advanced (2021 edition)
   slug: react_2
   category: react
-  dates: ['On demand/custom dates - Stockholm, Gothenburg, remote or customer's location' ]
+  dates: ["On demand/custom dates - Stockholm, Gothenburg, remote or customer's location" ]
   price: 24 500 SEK - €2.450
   active: true
   description: This is the course for developers with basic knowledge of React and who want to both deepen their knowledge of React but also learn about the tools and strategies for creating automated tests. The training alternates theory with practice to give you as a participant the opportunity to put your new knowledge into practice as quickly as possible!
@@ -107,7 +107,7 @@
   active: true
   description: How do we build stuff that people love? Because that is the real goal (not agile or Scrum). This course is about capturing your idea and involving users & stakeholders. We avoid trying to guess what the user wants, instead we go for what they really wants. You will work very hands-on with your own idea, and throughout the journey you will also learn Scrum and other commonly used tools.
   info: 3 days (21 hours) on-site. This course is delivered as a mix of theory sessions and code-along practical examples. Access to course documentation will be granted on purchase confirmation.
-  instructors: Sami Spjuth
+  instructors: Thomas Ochman + assistant coach
 
 - title: Mobile App Development with React Native (2021 edition)
   slug: react_native
@@ -117,4 +117,4 @@
   active: true
   description: This is the course for developers that wish to transition from web development to mobile app development with React Native. “Mobile App Development with React Native” introduces you to mobile application development using JavaScript. Through hands-on workshops and interactive code-along sessions, you'll gain experience with React Native and its paradigms, app architecture, and user interfaces. You will also learn how to ensure good quality code using end-to-end tests using Detox, a testing framework that executes code on an actual device/simulator and interacts with it just like a real user would.
   info: 4 days (28 h of instructor-led sessions and assistant coach support during assignments)
-  instructors: Thomas Ochman & assistant coach Emma-Maria Thalén
+  instructors: Thomas Ochman + assistant coach 
