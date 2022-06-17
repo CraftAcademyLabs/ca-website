@@ -144,3 +144,11 @@
   locations: "Göteborg, Stockholm, Nomads (remote)"
   course: Cyber Security Specialist
   price: 115 500
+
+- start_date: 19 September 2022
+  end_date: 17 June 2022
+  deadline: 1 March 2021
+  precourse_start_date: 15 August 2022
+  locations: "Remote"
+  course: Nomads Of Code Full Stack Bootcamp
+  price: 99 500
