@@ -1,4 +1,4 @@
-# Craft Academy Site
+# Nomads Of Code (formerly known as Craft Academy) Site
 
 [![Build Status](https://semaphoreci.com/api/v1/craftacademy/website/branches/master/shields_badge.svg)](https://semaphoreci.com/craftacademy/website)
 
