@@ -146,9 +146,9 @@
   price: 115 500
 
 - start_date: 19 September 2022
-  end_date: 17 June 2022
-  deadline: 1 March 2021
+  end_date: 9 December 2022
+  deadline: 1 August 2021
   precourse_start_date: 15 August 2022
   locations: "Remote"
-  course: Nomads Of Code Full Stack Bootcamp
+  course: Nomads Of Code Full Stack Bootcamp <br />(2022 edition with 1 extra week of post graduation support)
   price: 99 500
