@@ -1,95 +1,138 @@
-- description 'Lär dig programmering och webbutveckling på 12 veckor. Nomads Of Code är en intensiv & praktiskt inriktad utbildning där man får man lära sig programmera i JavaScript, Ruby, HTML5, CSS, mm. Vi erbjuder utbildningar i Göteborg, Stockholm och på distans'
-%section.hero-splash{style: "background-image: url(#{image_path('backgrounds/splash_1.jpg')});"}
-  .container
-    .centered-row
-      %h4.leader Ta steget in i IT-branschen.
-      %h1
-        = 'Framtiden är skriven i kod'.html_safe
-      %p
-        %strong
-          Väx med Nomads Of Code och få en snabb och effektiv väg in till ett spännande yrke.
-    .centered-row
-      %small
-        %strong
+- description 'Lär dig programmering och webbutveckling på 12 veckor. Nomads Of Code är en intensiv & praktiskt inriktad utbildning där man får lära sig programmera i JavaScript, Ruby, HTML5, CSS, mm. Vi erbjuder utbildningar i Göteborg, Stockholm och på distans'
+
+/ Hero Section with Tailwind
+%section.relative.bg-gradient-to-br.from-primary-500.to-primary-700.text-white.overflow-hidden
+  .absolute.inset-0.bg-black.opacity-10
+  .absolute.inset-0{style: "background-image: url(#{image_path('backgrounds/splash_1.jpg')}); background-size: cover; background-position: center; opacity: 0.15;"}
+  
+  .relative.container-custom.hero-section
+    .max-w-4xl.mx-auto.text-center.space-y-8
+      %h4.text-lg.md:text-xl.font-medium.tracking-wide.uppercase.text-primary-100
+        Ta steget in i IT-branschen
+      %h1.text-4xl.md:text-6xl.lg:text-7xl.font-heading.font-bold.leading-tight
+        Framtiden är skriven i
+        %span.text-gradient.bg-gradient-to-r.from-white.to-primary-100
+          kod
+      %p.text-xl.md:text-2xl.text-primary-50.max-w-2xl.mx-auto
+        Väx med Nomads Of Code och få en snabb och effektiv väg in till ett spännande yrke.
+      
+      .flex.flex-col.sm:flex-row.gap-4.justify-center.pt-6
+        %a.btn-primary.bg-white.text-primary-600.hover:bg-primary-50.shadow-xl{href: config.apply_form_url}
+          Ansök nu
+        %a.btn-outline.border-white.text-white.hover:bg-white.hover:text-primary-600{href: '/curriculum'}
+          Se våra kurser
+      
+      / Course dates
+      .mt-12.pt-8.border-t.border-primary-400.border-opacity-30
+        %p.text-sm.font-semibold.text-primary-100.mb-4.uppercase.tracking-wider
           Kommande kursstarter:
-      - Intake.future_dates[0..2].each do |intake|
-        %h4.leader
-          = intake.course_name
-          = '-'
-          = intake.start_date.strftime('%-d %b %Y')
+        .grid.grid-cols-1.md:grid-cols-3.gap-4
+          - Intake.future_dates[0..2].each do |intake|
+            .bg-white.bg-opacity-10.backdrop-blur-sm.rounded-lg.p-4.border.border-white.border-opacity-20
+              %p.font-semibold.text-white
+                = intake.course_name
+              %p.text-primary-100.text-sm
+                = intake.start_date.strftime('%-d %b %Y')
 
-%section.hero-splash-white
-  .container
-    .centered-row
-      %article
-        %h4.leader Omvärlden förändras
-        %h2 Tid för en ny form av utbildning
-        %p.copy
-          Digitaliseringen sker överallt och är omvälvande. Tiden är inne för en ny form av utbildning.
-          En utbildning som matchar verklighetens krav och där mixen av praktisk kompetens och teoretiska kunskaper gör dig som student eftertraktad på arbetsmarknaden.
-        %p.copy
-          %strong
-            Vi har tagit fram den utbildningen.
-      %article{style: 'padding-top: 5vh;'}
-        %h3 54 bästa kodnings Bootcamps 2020-2021.
-        %p.copy
-          %strong
-            Vi är mycket stolta över att komma till topp 15-listan över de bästa Bootcamps 2020-2021 av Course Report.
-        %p.copy
-          = link_to(image_tag('awards/award-2020-2021-green-resize.png', {style: 'width: 35%; height: auto;'}),'https://www.coursereport.com/best-coding-bootcamps')
-    .centered-row{style: 'padding-top: 5vh;'}
-      %article
-        %h4.leader Bli en del av lösningen
-        %h2 Det råder brist på kunnig personal
-        %p.copy
-          Arbetsgivare runt om i landet söker med ljus och lykta efter personal med rätt kunskaper.
-          Med Nomads Of Code hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest. Vi hjälper dig också att hitta ditt första jobb.
-    .centered-row{style: 'padding-top: 5vh;'}
-      %article
-        %h4.leader Du gör jobbet
-        %h2 Vi garanterar resultat
-        %p.copy
-          Vår anställningsgaranti ger dig kursavgiften tillbaka om du inte får jobb efter avslutad utbildning.
-        %p.copy
-          %strong
-            Vi tror på oss själva och vi tror på dig. Tillsammans formar vi framtiden.
-        %p.copy
-          villkor tillämpas
-        %p.copy
+/ Value Proposition Section
+%section.section-padding.bg-white
+  .container-custom
+    .max-w-6xl.mx-auto
+      .text-center.mb-16
+        %span.text-primary-600.font-semibold.text-sm.uppercase.tracking-wider
+          Omvärlden förändras
+        %h2.mt-4.text-gray-900
+          Tid för en ny form av utbildning
+        %p.mt-6.text-xl.text-gray-600.max-w-3xl.mx-auto
+          Digitaliseringen sker överallt och är omvälvande. Tiden är inne för en ny form av utbildning. En utbildning som matchar verklighetens krav och där mixen av praktisk kompetens och teoretiska kunskaper gör dig som student eftertraktad på arbetsmarknaden.
+      
+      .grid.grid-cols-1.md:grid-cols-3.gap-8
+        .card
+          .w-12.h-12.bg-primary-100.rounded-lg.flex.items-center.justify-center.mb-4
+            %svg.w-6.h-6.text-primary-600{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+              %path{d: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+          %h3.text-xl.font-bold.text-gray-900.mb-3
+            Praktisk utbildning
+          %p.text-gray-600
+            Verkliga projekt och hands-on träning som förbereder dig för arbetsmarknaden direkt.
+        
+        .card
+          .w-12.h-12.bg-primary-100.rounded-lg.flex.items-center.justify-center.mb-4
+            %svg.w-6.h-6.text-primary-600{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+              %path{d: "M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+          %h3.text-xl.font-bold.text-gray-900.mb-3
+            Erfarna mentorer
+          %p.text-gray-600
+            Lär av yrkesverksamma utvecklare med åratal av branscherfarenhet.
+        
+        .card
+          .w-12.h-12.bg-primary-100.rounded-lg.flex.items-center.justify-center.mb-4
+            %svg.w-6.h-6.text-primary-600{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+              %path{d: "M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+          %h3.text-xl.font-bold.text-gray-900.mb-3
+            Jobbgaranti
+          %p.text-gray-600
+            Vi garanterar resultat - få kursavgiften tillbaka om du inte får jobb efter utbildningen.
 
+/ Stats Section
+%section.section-padding.bg-gradient-to-r.from-gray-50.to-gray-100
+  .container-custom
+    .text-center.mb-12
+      %span.inline-block.px-4.py-2.bg-primary-100.text-primary-700.rounded-full.text-sm.font-semibold.mb-4
+        Topp 15 globalt
+      %h2.text-gray-900.mb-4
+        54 bästa kodnings Bootcamps 2020-2021
+      %p.text-gray-600.text-lg.max-w-2xl.mx-auto
+        Vi är mycket stolta över att komma till topp 15-listan över de bästa Bootcamps 2020-2021 av Course Report.
+    
+    .flex.justify-center.mt-8
+      = link_to('https://www.coursereport.com/best-coding-bootcamps', target: '_blank', class: 'transform hover:scale-105 transition-transform') do
+        = image_tag('awards/award-2020-2021-green-resize.png', class: 'max-w-xs mx-auto shadow-xl rounded-lg')
 
+/ Job Market Section
+%section.section-padding.bg-white
+  .container-custom
+    .grid.grid-cols-1.lg:grid-cols-2.gap-12.items-center
+      %div
+        %span.text-primary-600.font-semibold.text-sm.uppercase.tracking-wider
+          Bli en del av lösningen
+        %h2.mt-4.text-gray-900
+          Det råder brist på kunnig personal
+        %p.mt-6.text-lg.text-gray-600
+          Arbetsgivare runt om i landet söker med ljus och lykta efter personal med rätt kunskaper. Med Nomads Of Code hjälp får du under tre månader lära dig många av de färdigheter som efterfrågas allra mest.
+        %p.mt-4.text-lg.text-gray-600
+          Vi hjälper dig också att hitta ditt första jobb.
+        %a.btn-primary.mt-8.inline-block{href: '/curriculum'}
+          Utforska våra kurser
+      
+      %div
+        .bg-gradient-to-br.from-primary-50.to-primary-100.rounded-2xl.p-8.space-y-6
+          .flex.items-center.space-x-4
+            .flex-shrink-0.w-16.h-16.bg-primary-500.rounded-full.flex.items-center.justify-center.text-white.text-2xl.font-bold
+              12
+            %div
+              %p.text-sm.text-primary-700.font-semibold.uppercase
+                Veckors intensiv träning
+              %p.text-gray-700
+                Full-stack utveckling
+          
+          .flex.items-center.space-x-4
+            .flex-shrink-0.w-16.h-16.bg-primary-500.rounded-full.flex.items-center.justify-center.text-white.text-2xl.font-bold
+              90%
+            %div
+              %p.text-sm.text-primary-700.font-semibold.uppercase
+                Anställningsgrad
+              %p.text-gray-700
+                Inom 6 månader
+          
+          .flex.items-center.space-x-4
+            .flex-shrink-0.w-16.h-16.bg-primary-500.rounded-full.flex.items-center.justify-center.text-white.text-2xl.font-bold
+              500+
+            %div
+              %p.text-sm.text-primary-700.font-semibold.uppercase
+                Framgångsrika studenter
+              %p.text-gray-700
+                Över hela Sverige
 
-%section.hero-splash-white
-  .container
-    .profile-row
-      .copy
-        %h2
-          Möt våra studenter
-        %p
-          Deltagarna på våra accelererade utbildningar har ofta helt olika bakgrund.
-          Från entreprenörer som vill utveckla sina egna produkter till de som är mitt i karriären och känner att det är dags för en ny utmaning.
-          Alla har dock en sak gemensamt. De vill på något sätt bli delaktiga i den digitalisering som påverkar oss alla och de vill göra det nu - inte om tre år.
-        .button-row.shift-to-bottom
-          %p
-            = link_to 'Våra studenter', '/students', class: "button button--vertical"
-      .image.show-desktop
-        = image_tag 'people/students_group.png', style: 'margin: 20px 20px 20px 20px;'
-      .image.hide-desktop.no-padding
-        = image_tag '/people/students_group.png', style: 'margin: 20px 20px 20px 20px;'
-
-%section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/ipad-fade.jpg')});"}
-  .container
-    .centered-row
-      %article
-        %h4.leader Vi blickar bortom teknologi
-        %h2 Praktik framför teori
-        %p.copy
-          Vi tror att traditionell utbildning lär människor att klara prov, snarare än att ge dem verklig kunskap. Vi har skapat en intensiv och praktiskt inriktad utbildning som gör dig anställningsbar på bara 12 veckor.
-        = link_to 'Våra utbildningsprogram', '/curriculum.html', class: 'button button--vertical'
-
-= partial 'partials/news_flash_sv'
-= partial 'partials/reviews'
-= partial 'partials/course_dates'
 = partial 'partials/what_you_get'
 = partial 'partials/apply'
-
