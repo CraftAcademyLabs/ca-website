@@ -5,7 +5,7 @@
       %h1 Learn the craft of coding in Scandinavia
       %h4.subheader
         = 'Spend 12 weeks with Sweden’s #1 Developer Bootcamp<br>and hit the ground running.'.html_safe
-      = partial :'email-capture', locals: { language: 'en' }
+      = partial 'partials/email-capture', locals: { language: 'en' }
 
 %section
   .container
@@ -117,6 +117,6 @@
         -#  or use the form below to enroll.
         -#  %span
         -#    %strong The deadline for this discount offer is August 1st.
-= partial :'course_dates', locals: { language: 'en' }
-= partial :'apply', locals: { language: 'en' }
-= partial :'full_curriculum_pretoria'
+= partial 'partials/course_dates', locals: { language: 'en' }
+= partial 'partials/apply', locals: { language: 'en' }
+= partial 'partials/full_curriculum_pretoria'

@@ -77,7 +77,7 @@
           Vi tror att traditionell utbildning lär människor att klara prov, snarare än att ge dem verklig kunskap. Vi har skapat en intensiv och praktiskt inriktad utbildning som ger dig en produktiv utvecklare på bara 12 veckor.
         = link_to 'Våra program', '/curriculum.html', class: 'button button--horizontal'
 
-= partial :'course_dates', locals: { color: '#55bfcc' }
+= partial 'partials/course_dates', locals: { color: '#55bfcc' }
 %section.hero-splash-white{style: "background-image: url(#{image_path('backgrounds/startup-2-fade.jpg')});"}
   .container
     .centered-row
@@ -110,7 +110,7 @@
             %h5
               Kaffe, onsdagsfrukost och torsdagsfika.
 
-= partial :'apply', locals: {background_image: 'di_startup_tour_splash_2.png'}
-= partial :footer, locals: { color: '#55bfcc' }
+= partial 'partials/apply', locals: {background_image: 'di_startup_tour_splash_2.png'}
+= partial 'partials/footer', locals: { color: '#55bfcc' }
 
 

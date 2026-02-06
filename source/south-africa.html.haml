@@ -5,7 +5,7 @@
       %h1 Learn the craft of coding
       %h4.subheader
         = 'Spend 12 weeks with South Africa´s #1 Developer Bootcamp<br>and hit the ground running.'.html_safe
-      = partial :'email-capture', locals: { language: 'en' }
+      = partial 'partials/email-capture', locals: { language: 'en' }
 
 %section
   .container
@@ -91,6 +91,6 @@
               During the 12 week long bootcamp, our learners work through a series of projects that takes them from no knowledge about software development to a level of junior developers.
 
 
-= partial :'course_dates', locals: { language: 'en' }
-= partial :'apply', locals: { language: 'en' }
-= partial :'full_curriculum_pretoria'
+= partial 'partials/course_dates', locals: { language: 'en' }
+= partial 'partials/apply', locals: { language: 'en' }
+= partial 'partials/full_curriculum_pretoria'

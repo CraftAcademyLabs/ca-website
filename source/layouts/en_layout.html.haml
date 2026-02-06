@@ -36,23 +36,23 @@
     %link{href: image_path('favicons/favicon.ico'), rel: 'shortcut icon', type: 'image/x-icon'}/
     = display_meta_tags site: 'Learn how to program in 12 weeks with Craft Academy'
 
-    = partial :'social_media_meta'
+    = partial 'partials/social_media_meta'
 
     - if page_is_sa_homepage?
-      = partial :'facebook_pixel'
+      = partial 'partials/facebook_pixel'
 
     -unless current_page_is_sa?
-      = partial :'analytics_scripts'
+      = partial 'partials/analytics_scripts'
 
   %body{class: page_classes}
     - if current_page_is_sa?
-      = partial :'google_tag_manager_sa'
+      = partial 'partials/google_tag_manager_sa'
 
-    = partial :'deprecated_browser_warning'
-    = partial :'english/partials/navigation'
+    = partial 'partials/deprecated_browser_warning'
+    = partial 'english/partials/navigation'
     = yield
 
-    = partial :'english/partials/footer'
+    = partial 'english/partials/footer'
 
     = javascript_include_tag 'all'
     = javascript_include_tag 'doorbell_en'

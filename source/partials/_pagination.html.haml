@@ -1,0 +1,47 @@
+/ Pagination component for course listings
+/ Usage: = partial 'partials/pagination', locals: { current_page: 1, total_pages: 5, base_url: '/courses' }
+
+- current = locals[:current_page] || 1
+- total = locals[:total_pages] || 1
+- base = locals[:base_url] || '/curriculum'
+
+- if total > 1
+  %nav.flex.items-center.justify-center.space-x-2.my-12{aria: {label: "Pagination"}}
+    / Previous button
+    - if current > 1
+      %a.px-4.py-2.border.border-gray-300.rounded-lg.text-gray-700.hover:bg-gray-50.transition.flex.items-center.space-x-2{href: "#{base}?page=#{current - 1}"}
+        %svg.w-5.h-5{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+          %path{d: "M15 19l-7-7 7-7", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+        %span Föregående
+    - else
+      %span.px-4.py-2.border.border-gray-200.rounded-lg.text-gray-400.cursor-not-allowed.flex.items-center.space-x-2
+        %svg.w-5.h-5{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+          %path{d: "M15 19l-7-7 7-7", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+        %span Föregående
+    
+    / Page numbers
+    .flex.space-x-1
+      - (1..total).each do |page|
+        - if page == current
+          %span.px-4.py-2.bg-primary-500.text-white.rounded-lg.font-semibold
+            = page
+        - elsif (page - current).abs <= 2 || page == 1 || page == total
+          %a.px-4.py-2.border.border-gray-300.rounded-lg.text-gray-700.hover:bg-gray-50.transition{href: "#{base}?page=#{page}"}
+            = page
+        - elsif (page - current).abs == 3
+          %span.px-2.py-2.text-gray-400 ...
+    
+    / Next button
+    - if current < total
+      %a.px-4.py-2.border.border-gray-300.rounded-lg.text-gray-700.hover:bg-gray-50.transition.flex.items-center.space-x-2{href: "#{base}?page=#{current + 1}"}
+        %span Nästa
+        %svg.w-5.h-5{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+          %path{d: "M9 5l7 7-7 7", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+    - else
+      %span.px-4.py-2.border.border-gray-200.rounded-lg.text-gray-400.cursor-not-allowed.flex.items-center.space-x-2
+        %span Nästa
+        %svg.w-5.h-5{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+          %path{d: "M9 5l7 7-7 7", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+    
+  .text-center.text-sm.text-gray-600.mt-4
+    Sida #{current} av #{total}

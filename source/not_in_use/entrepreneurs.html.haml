@@ -9,7 +9,7 @@
         Har du någonsin drömt om att starta eget företag? Du kanske redan är företagare och vill själv kunna skapa företagets webbplats
         för att vara säker på att din vision blir verklighet? Engagera dig i varje aspekt av din verksamhet och lär dig det mest väsentliga
         kunskap för framtiden: kodning!
-      = partial :'email-capture'
+      = partial 'partials/email-capture'
 
 %section
   .article--centered
@@ -29,7 +29,7 @@
       %h3 This could be you
       %p Our graduates have gone on to build successful businesses, been accepted into accelerators, and secured further funding. Read their stories below.
 
-= partial :"full_graduates", locals: { category: "entrepreneur" }
+= partial 'partials/full_graduates', locals: { category: "entrepreneur" }
 %hr
 
 
@@ -77,4 +77,4 @@
 %hr
 
 
-= partial :'apply'
+= partial 'partials/apply'

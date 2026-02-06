@@ -25,7 +25,7 @@
         Our training programs, workshops, and courses are always delivered as a mix of theory and practice. We believe that is the most effective way to learn.
       %h2
         New course releases Fall/Winter 2020 - 2021
-        -# = partial :'/english/partials/_meet_our_coaches'
+        -# = partial 'partials//english/partials/_meet_our_coaches'
       %ul{style: 'list-style: none; '}
         - Course.active_categories.each do |category|
           %li{data: {filter: category}, style: 'cursor:pointer; display: inline-block; font-weight: bold; '}

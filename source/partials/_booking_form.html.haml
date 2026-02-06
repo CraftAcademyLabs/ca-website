@@ -1,0 +1,78 @@
+%section#booking-form.section-padding.bg-gradient-to-br.from-primary-50.to-white
+  .container-custom
+    .max-w-4xl.mx-auto
+      .text-center.mb-12
+        %h2.text-gray-900.mb-4
+          Boka en kostnadsfri konsultation
+        %p.text-lg.text-gray-600
+          Osäker på vilken kurs som passar dig? Boka ett möte med våra studievägledare.
+      
+      %form.bg-white.rounded-2xl.shadow-xl.p-8.md:p-12{action: "https://formspree.io/f/YOUR_FORM_ID", method: "POST"}
+        .grid.grid-cols-1.md:grid-cols-2.gap-6
+          %div
+            %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "firstName"}
+              Förnamn
+              %span.text-red-500 *
+            %input.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{type: "text", id: "firstName", name: "firstName", required: true, placeholder: "Ditt förnamn"}
+          
+          %div
+            %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "lastName"}
+              Efternamn
+              %span.text-red-500 *
+            %input.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{type: "text", id: "lastName", name: "lastName", required: true, placeholder: "Ditt efternamn"}
+        
+        .mt-6
+          %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "email"}
+            E-postadress
+            %span.text-red-500 *
+          %input.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{type: "email", id: "email", name: "email", required: true, placeholder: "din.email@exempel.se"}
+        
+        .mt-6
+          %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "phone"}
+            Telefonnummer
+            %span.text-red-500 *
+          %input.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{type: "tel", id: "phone", name: "phone", required: true, placeholder: "070-123 45 67"}
+        
+        .mt-6
+          %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "course"}
+            Intresserad kurs
+            %span.text-red-500 *
+          %select.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{id: "course", name: "course", required: true}
+            %option{value: ""} Välj en kurs
+            %option{value: "fullstack-12w"} Full Stack Bootcamp (12 veckor)
+            %option{value: "react-6w"} React Front-End Developer (6 veckor)
+            %option{value: "cybersecurity"} Cybersecurity Training
+            %option{value: "other"} Annat / Osäker
+        
+        .mt-6
+          %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "preferredDate"}
+            Önskat mötesdatum
+          %input.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition{type: "date", id: "preferredDate", name: "preferredDate"}
+        
+        .mt-6
+          %label.block.text-sm.font-semibold.text-gray-700.mb-2{for: "message"}
+            Meddelande (valfritt)
+          %textarea.w-full.px-4.py-3.border.border-gray-300.rounded-lg.focus:ring-2.focus:ring-primary-500.focus:border-transparent.transition.resize-none{id: "message", name: "message", rows: "4", placeholder: "Berätta lite om dig själv och vad du vill veta mer om..."}
+        
+        .mt-6
+          .flex.items-start
+            .flex.items-center.h-5
+              %input.w-4.h-4.text-primary-600.border-gray-300.rounded.focus:ring-primary-500{type: "checkbox", id: "consent", name: "consent", required: true}
+            .ml-3
+              %label.text-sm.text-gray-600{for: "consent"}
+                Jag godkänner att Nomads Of Code kontaktar mig via e-post och telefon.
+                %span.text-red-500 *
+        
+        .mt-8.flex.flex-col.sm:flex-row.gap-4
+          %button.btn-primary.flex-1.flex.items-center.justify-center.space-x-2{type: "submit"}
+            %span Skicka förfrågan
+            %svg.w-5.h-5{fill: "none", stroke: "currentColor", viewBox: "0 0 24 24"}
+              %path{d: "M14 5l7 7m0 0l-7 7m7-7H3", "stroke-linecap" => "round", "stroke-linejoin" => "round", "stroke-width" => "2"}
+          
+          %button.btn-outline.flex-1{type: "reset"}
+            Rensa formulär
+        
+        .mt-6.text-center.text-sm.text-gray-500
+          %p
+            Eller ring oss direkt på
+            %a.text-primary-600.font-semibold.hover:text-primary-700{href: "tel:+46812345678"} 08-123 45 678
