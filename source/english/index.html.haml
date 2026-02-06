@@ -18,10 +18,10 @@
           = '-'
           = intake.start_date.strftime('%-d %b %Y')
 
-= partial :'news_flash_en'
-= partial :'intro'
-= partial :'full_graduates_en'
-= partial :'who_is_it_for'
-= partial :'reviews_eng'
-= partial :'course_dates', locals: { language: :en }
-= partial :'apply' # This should be in the footer
+= partial 'english/partials/news_flash_en'
+= partial 'english/partials/intro'
+= partial 'english/partials/full_graduates_en'
+= partial 'english/partials/who_is_it_for'
+= partial 'english/partials/reviews_eng'
+= partial 'partials/course_dates', locals: { language: :en }
+= partial 'english/partials/apply' # This should be in the footer

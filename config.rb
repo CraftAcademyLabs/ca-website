@@ -104,7 +104,7 @@ end
 
 page '/english/*', layout: 'en_layout'
 
-set :css_dir, 'sass'
+set :css_dir, 'stylesheets'
 set :js_dir, 'javascripts'
 set :partials_dir, 'partials'
 set :images_dir, 'images'

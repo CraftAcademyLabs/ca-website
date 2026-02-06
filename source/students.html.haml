@@ -8,7 +8,7 @@
       %p
         %strong
           Deltagarna på våra bootcamps har ofta helt olika bakgrund. Från entreprenörer som vill utveckla sina egna produkter till de som fastnat i karriären och känner att det är dags för en ny utmaning. Alla har dock en sak gemensamt. De vill jobba med systemutveckling och de är redo att kavla upp ärmarna och jobba hårt för att förverkliga sina mål.
-= partial :full_graduates
+= partial 'partials/full_graduates'
 
 %section.hero-splash--white{style: "background-image: url(#{image_path('backgrounds/office-1209640-fade.jpg')});"}
   .container
@@ -20,7 +20,7 @@
       %p.copy--left Det vi gör på Nomads Of Code Full är inte bara att undervisa i Agila utvecklingsmetoder, Ruby, JavaScript, mm. Vi hjälper inte bara våra studenter att bli utvecklare, även om det är det synliga resultatet av vårt arbete. Vi hjälper dem att förändra sina liv till det bättre, att lära sig att lära, att förstå hur de fungerar och tänker.
       %p.copy--left Vi ger dig alla verktyg du behöver för att bli en bra programmerare - tillgång till en beprövad läroplan, erfarna coacher på plats och på distans, möjlighet att samverka med deltagare i andra delar av Norden och även tillgång till en egen MacBook Pro så att du får en bra utvecklarmiljö att jobba i.
       = link_to 'Vår läroplan', '/curriculum.html', class: 'button button--vertical'
-= partial :'reviews'
-= partial :'course_dates'
-= partial :'what_you_get'
-= partial :'apply', locals: {about_us: true}
+= partial 'partials/reviews'
+= partial 'partials/course_dates'
+= partial 'partials/what_you_get'
+= partial 'partials/apply', locals: {about_us: true}

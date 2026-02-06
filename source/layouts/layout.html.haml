@@ -42,21 +42,21 @@
     - else
       = display_meta_tags site: 'Programmering | Lär dig programmera på 12 veckor med Craft Academy'
 
-    = partial :'social_media_meta'
+    = partial 'partials/social_media_meta'
 
     -unless current_page_is_sa?
-      = partial :'analytics_scripts'
+      = partial 'partials/analytics_scripts'
 
   %body{class: page_classes}
     - if current_page_is_sa?
-      = partial :'google_tag_manager_sa'
+      = partial 'partials/google_tag_manager_sa'
 
-    = partial :'deprecated_browser_warning'
-    = partial :'navigation'
+    = partial 'partials/deprecated_browser_warning'
+    = partial 'partials/navigation'
 
     = yield
     - unless current_page_is_campaign_page?
-      = partial :'footer'
+      = partial 'partials/footer'
 
     = javascript_include_tag 'all'
 

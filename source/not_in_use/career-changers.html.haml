@@ -6,7 +6,7 @@
       %h1 Become a Junior Developer
       %h4.subheader learn to code in 12 weeks
       %P Come and learn the principles of software craftsmanship and soon you'll be starting your career as a web developer. Craft Academy is Europe's leading Developer bootcamp. Over the past couple of years, we've graduated over #{stats.number_of_graduates} students into their dream jobs as junior developers - there's no reason why our next success story can't be you.
-    = partial :"email-capture"
+    = partial 'partials/email-capture'
 
 %section
   .article--centered
@@ -25,7 +25,7 @@
       %p Our graduates come from all walks of life, everything from lawyers to teachers, accountants to estate agents to senior managers, and many, many more. They had the belief in themselves to escape an unfulfilling career, and now they get to apply their creative skills to work that they enjoy, not to mention having a better work life balance!
       %p When was the last time you were so excited by your work that you jumped out of bed in the morning? Never?! Then quit now and make a change for the better - life’s too short not to be doing something you love.
 
-= partial :"full_graduates", locals: { category: "career changer" }
+= partial 'partials/full_graduates', locals: { category: "career changer" }
 
 %section.hero{style: "background-image: url(#{image_path('backgrounds/splash_2.jpg')});"}
   .container
@@ -89,6 +89,6 @@
 
 %hr
 
-= partial :"benefits_table"
+= partial 'partials/benefits_table'
 
-= partial :"apply"
+= partial 'partials/apply'
