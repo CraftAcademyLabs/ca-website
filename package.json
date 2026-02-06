@@ -1,0 +1,17 @@
+{
+  "name": "ca-website",
+  "version": "3.0.0",
+  "description": "Craft Academy website with modern Tailwind CSS 4.x",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:css": "tailwindcss -i ./source/stylesheets/tailwind.css -o ./source/stylesheets/output.css --minify",
+    "watch:css": "tailwindcss -i ./source/stylesheets/tailwind.css -o ./source/stylesheets/output.css --watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/forms": "^0.5.7",
+    "@tailwindcss/typography": "^0.5.10"
+  }
+}
