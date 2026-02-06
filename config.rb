@@ -82,16 +82,22 @@ helpers do
 end
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
+# Helper method for generating slugs - needed before helpers are loaded
+def grad_slug(graduate)
+  name = graduate[:first_name] + ' ' + graduate[:last_name]
+  name.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+end
+
 data.graduates.each do |grad|
   if grad[:case_study]
-    url_slug = graduate_slug(grad)
+    url_slug = grad_slug(grad)
     proxy "/case-studies/#{url_slug}.html", '/case-studies/template.html', locals: { grad: grad }, ignore: true
   end
 end
 
 data.graduates_en.each do |grad|
   if grad[:case_study]
-    url_slug = graduate_slug(grad)
+    url_slug = grad_slug(grad)
     proxy "/english/students/#{url_slug}.html", '/english/case-studies/template.html', locals: { grad: grad }, ignore: true
   end
 end
@@ -103,7 +109,8 @@ set :js_dir, 'javascripts'
 set :partials_dir, 'partials'
 set :images_dir, 'images'
 
-sprockets.append_path File.join root, 'bower_components'
+# Middleman 4 uses config[:js_assets_paths] instead of sprockets.append_path
+# config[:js_assets_paths] << File.join(root, 'bower_components')
 
 # set :apply_form_url, 'https://craftacademy.typeform.com/to/V4mFcd'
 # set :apply_form_url_english, 'https://craftacademy.typeform.com/to/hkkxKQ'
@@ -132,14 +139,16 @@ redirect 'pretoria.html', to: 'south-africa.html'
 redirect 'south-africa.html', to: 'english/za/index.html'
 
 # HACK: Comment this section out while in development
-activate :deploy do |deploy|
-  deploy.method          = :rsync
-  deploy.host            = ENV.fetch('HOST')
-  deploy.path            = ENV.fetch('DEPLOY_PATH')
-  deploy.user            = ENV.fetch('DEPLOY_USER')
-  deploy.build_before    = true
-  deploy.clean           = true
-end
+# Note: middleman-deploy is incompatible with Middleman 4+
+# Deploy can be done manually using: middleman build && rsync
+# activate :deploy do |deploy|
+#   deploy.method          = :rsync
+#   deploy.host            = ENV.fetch('HOST')
+#   deploy.path            = ENV.fetch('DEPLOY_PATH')
+#   deploy.user            = ENV.fetch('DEPLOY_USER')
+#   deploy.build_before    = true
+#   deploy.clean           = true
+# end
 
 # if ENV['RACK_ENV'] == 'production'
 #   activate :deploy do |deploy|
